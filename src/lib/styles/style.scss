@@ -1,0 +1,42 @@
+/* style.css */
+body {
+	margin: auto;
+	background: hsl(210, 33%, 12%);
+	color: hsl(0, 0%, 99%);
+	font-family: 'Inter Variable', sans-serif;
+}
+
+main {
+	margin: 0 auto 0 auto;
+}
+
+strong {
+	background: hsl(49, 100%, 50%);
+	padding: 0rem .3rem;
+	color: hsl(210, 33%, 9%);
+}
+
+h1 {
+	font-size: 6rem;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 3rem;
+	font-weight: 300;
+}
+
+a:visited {
+	color: inherit;
+}
+
+.curly {
+	width: 2.5rem;
+	margin: 5rem 0;
+	display: block;
+}
+
+p {
+	font-size: 1.8rem;
+	line-height: 2.8rem;
+}

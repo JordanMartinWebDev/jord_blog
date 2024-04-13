@@ -42,7 +42,7 @@
 				gap: 20px;
 			}
 			& img {
-				max-width: 300px;
+				max-width: 250px;
 			}
 			& li {
 				padding: 1rem 1rem;

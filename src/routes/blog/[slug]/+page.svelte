@@ -5,7 +5,6 @@
 
 <article>
 	<img src="../{thumbnail}" alt="" />
-	<h1>{title}</h1>
 	<p>Published: {date}</p>
 	<Content />
 </article>
@@ -17,10 +16,11 @@
 		flex-direction: column;
 		margin: 0 25%;
 		& img {
-			max-width: 300px;
+			max-width: 200px;
 		}
 		& h1 {
-			margin-bottom: 0;
+			margin-top: 0rem;
+			margin-bottom: 6rem;
 		}
 		& h2 {
 			font-size: 3rem;
@@ -31,6 +31,13 @@
 		& p {
 			font-size: 1.8rem;
 			margin: 1rem 0;
+			line-height: 2.5rem;
+		}
+		& ul {
+			font-size: 1.8rem;
+		}
+		& li {
+			margin-bottom: 2rem;
 		}
 	}
 </style>
